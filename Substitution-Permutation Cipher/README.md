@@ -29,7 +29,7 @@ Since the letter 's' would correspond to the 4th and 5th position, the two 'l's 
 
 _jnEmAEn wa sfcS wepE rtct jE tjESSpE jx aEf SidAEmx_</br>
 _Schnca EnScpycg cy faE fwEt. gw AEfAp, Apy scyA p rAx_</br>
-_sw jnEmAcyg faE ShtEt wy cfu eAaS jx aEf Ebck tAssnA. _</br>
+_sw jnEmAcyg faE ShtEt wy cfu eAaS jx aEf Ebck tAssnA._</br>
 _afE hScncw as afe EAbE Auy cS tArAxr Scaf wxd. scpy afE_</br>
 _Augce Aryp aAfa rctt tEa wxd wdw as afe EAbEc. Sa rwtdp_</br>
 _uAEm xwd u AAgcceAy, yt wESS faAy ksAsAn! hSEAm faE_</br>
@@ -55,7 +55,7 @@ We finally get the plaintext as -
 
 _breaker of this code will be blessed by the squeaky_</br>
 _spirit residing in the hole. go ahead, and find a way_</br>
-_of breaking the spell on him cast by the evil jaffar. _</br>
+_of breaking the spell on him cast by the evil jaffar._</br>
 _the spirit of the cave man is always with you. find the_</br>
 _magic wand that will let you out of the caves. it would_</br>
 _make you a magician, no less than jaffar! speak the_</br>
