@@ -53,5 +53,5 @@ Since the XOR  of the output of the expansion box is equal to the XOR  of the in
 We do not know the value of _L<sub>5</sub>_. However, we do know that the XOR of the outputs of some of the S-boxes equals zero, for each characteristic, as specified above. We can use this to find the output XORs of the 6th round (denoted by X') as:
 
 ```math
-SE = \frac{\sigma}{\sqrt{n}}
+r' \xor e' = r' \xor D' \xor c' = X'
 ``` 
