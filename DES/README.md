@@ -87,3 +87,21 @@ Sbox-8 (6-bit key) =  110000  frequency : 39
 
 We therefore calculated the **Partial Key** as follows: 
 ['#', '1', '1', '#', '#', '1', '#', '#', '0', '1', '0', '1', '1', '#', '1', '0', '0', '#', '#', '1', '1', '#', '1', '1', '0', '0', '0', '#', '0', '0', '1', '0', '0', '1', '1', '#', '1', '1', '1', '1', '1', '0', '0', '0', '#', '1', '1', '#', '0', '1', '1', '1', '#', '0', '0', '1']
+
+**NOTE:** '#' denotes unknown key bits.
+
+### Brute Force
+
+Now that we know **42 bits** of the key, we may loop over 2<sup>14</sup> potential 56-bit keys to see whether this key produces the right ciphertext when applied to a plaintext, using the key scheduling approach to obtain the round-wise sub-keys.
+
+Using this, we get the **56-bit key in binary** as:</br>
+_**01101110010111100111101100000010011011111000111001110001**_
+
+Applying DES decryption on the password : _**gsrquiiofkflimtskmthgrmqlfsktjis**_
+
+Converted to Binary: </br>
+_**01101111011100100111010101110011011001010111101001100100011011000110011101110011001100000011000000110000001100000011000000110000**_
+
+Decrypted  Password: _**orusezdlgs000000**_
+
+After removing the padding of zeroes, we get the final password: _**orusezdlgs**_
