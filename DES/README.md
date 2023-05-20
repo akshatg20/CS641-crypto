@@ -34,6 +34,22 @@ We moved forward with the following two  **iterative characteristics** that migh
 Characteristic 1 - (40080000,04000000) with probability = 1/16</br>
 Characteristic 2 - (00200008,00000400) with probability = 1/16
 
+We conducted our cryptanalysis using these two characteristics in parallel, so as to increase our chances of success. **(NOTE: The characteristics here have been represented in hexadecimal notation)**
 
+We ran an automated script to attack the server with multiple plaintexts and got the needed corresponding ciphetexts. This was done for both the characteristics.
+
+### Partial Key Generation
+
+Each of the two characteristic would let us find 30 bits of _K<sub>6</sub>_, which is the notation for the round key for the 6th round, corresponding to the 5 S-boxes. But as 3 of the S-boxes (_S<sub>2</sub>,S<sub>5</sub>,S<sub>6</sub>_) are common for both the characteristics, we only get **42 bits** of the key. 
+
+The other **14 bits** of the **56-bit key** are found using brute force (explained later).
+
+Using the mapping given at the start, we converted the ciphertexts corresponding to the plaintext pairs into **binary notation of 64 bits**.
+
+Then, we applied the reverse final permutation on them and divided them into two halves to get the values of _L<sub>6</sub>_ and _R<sub>6</sub>_. We then apply expansion on _R<sub>5</sub>_.
+
+Since the XOR  of the output of the expansion box is equal to the XOR  of the input of the S-boxes, we know the XOR of the inputs of the S-boxes also.
+
+We do not know the value of _L<sub>5</sub>_. However, we do know that the XOR of the outputs of some of the S-boxes equals zero, for each characteristic, as specified above. We can use this to find the output XORs of the 6th round (denoted by X') as:
 
  
