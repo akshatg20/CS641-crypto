@@ -5,11 +5,11 @@ We were first presented with following ciphertext -
 
   _qmnjvsa nv wewc flct vprj tj tvvplvl fv xja vqildhc_</br>
 _xmlnvc nacyclpa fc gyt vfvw. fv wgqyp, pqq pqcs y wsq_</br>
-_rx qmnjvafy cgv tlvhf cw tyl aeuq fv xja tkbv cqnsqs. _</br>
+_rx qmnjvafy cgv tlvhf cw tyl aeuq fv xja tkbv cqnsqs._</br>
 _lhf avawnc cv eas fuqb qvq tc yllrqr xxwa cfy. psdc uqf_</br>
 _avrqc gefq pyat trac xwv taa wwd dv eas flcbq. vd trawm_</br>
 _vupq quw x decgqcwt, yq yafl vlqs yqklhq! snafq vml_</br>
-_lhvqpawr nqg_vfusr_ec_wawy qp fn wgawdgf. _
+_lhvqpawr nqg_vfusr_ec_wawy qp fn wgawdgf._
 
 ### Observation 1 
 We see two different single-letter words - "x" and "y". Now, it can be an example of a simple substitution cipher in case they correspond to "a" and "i" (since all letters are in lower-case, we assume "i" will be "I" in the actual plaintext). However, if "x" corresponds to either "a" or "i", "xxwa" in the ciphertext would not have a corresponding plaintext word that would make sense. Thus, we come to the conclusion that the plaintext has not been simply encrypted using a substitution cipher.
