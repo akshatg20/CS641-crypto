@@ -23,8 +23,8 @@ file.close()
 
 # Create input file to interact with the shell
 file = open("bash_input.txt", "w+")
-file.write("turing_shuring\n")
-file.write("TiGz5@#huJ&\n")
+file.write(f"{teamname}\n")
+file.write(f"{password}\n")
 file.write("5\n")
 file.write("go\n")
 file.write("wave\n")
