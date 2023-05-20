@@ -28,4 +28,12 @@ This was also consistent with the message given by the soul which stated the fol
 ### Encryption System and Method of Attack
 
 The spirit mentions that the cryptosystem used is a 4-round or a 6-round DES. We assumed a **6-round DES encryption system.**</br>
-To break this DES, we performed a known plaintext attack. The plaintexts were generated using the mapping explained above and consisted of alphabets from _f to u_.
+To break this DES, we performed a known plaintext attack. The plaintexts were generated using the mapping explained above and consisted of alphabets from _f to u_. </br>
+We moved forward with the following two  **iterative characteristics** that might give us the possible answer:
+
+Characteristic 1 - (40080000,04000000) with probability = 1/16</br>
+Characteristic 2 - (00200008,00000400) with probability = 1/16
+
+
+
+ 
