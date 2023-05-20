@@ -234,7 +234,7 @@ def gen_in_out(no_of_input_pairs, characteristic):
     fin_per = apply_rev_init_perm(characteristic)  # inverse initial
     input_list = gen_input(fin_per, no_of_input_pairs)
     with open("xor_plaintexts.txt", "w") as f:
-        f.write("turing_shuring\nTiGz5@#huJ&\n4\nread\n")
+        f.write("{team_name}\n{password}\n4\nread\n")
         for input in input_list:
             f.write(f'{input}\nc\n')
         f.write("back\nexit\n")
@@ -335,7 +335,7 @@ def decryption(p, round_keys, rounds):
     return apply_rev_init_perm(L[0]+R[0])
 
 with open('random_plaintexts.txt', 'w') as f:
-    f.write('turing_shuring\nTiGz5@#huJ&\n4\nread\npassword\nc\n')
+    f.write(f'{team_name}\n{password}\n4\nread\npassword\nc\n')
     for i in range(100):
         f.write(f"{''.join(random.choice(([c for c in 'abcdefghijklmnopqrstuvwxyz'])) for _ in range(16))}\nc\n")
     f.write('back\nexit\n')
