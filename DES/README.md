@@ -4,8 +4,9 @@ This repository contains the implementation of decryption of a DES encryption sy
 ### Preliminaries
 
 We first ran an automated script to generate 100 pairs of plaintext-ciphertext to get an idea about the ciphertext-space. Upon further analysis of these 100 pairs, we figured out that the ciphertext space contained **English alphabets f to u**. So we realised that the ciphertext space contained exactly 16 alphabets, suggesting that they might be mapped from 0 to 16 as follows: 
-_
-f-0000
+
+
+_f-0000_
 g-0001
 h-0010
 i−0011
@@ -20,5 +21,4 @@ q−1011
 r−1100 
 s−1101 
 t−1110 
-u−1111_
- 
+u−1111
