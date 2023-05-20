@@ -6,8 +6,7 @@ This repository contains the implementation of decryption of a DES encryption sy
 We first ran an automated script to generate 100 pairs of plaintext-ciphertext to get an idea about the ciphertext-space. Upon further analysis of these 100 pairs, we figured out that the ciphertext space contained **English alphabets f to u**. So we realised that the ciphertext space contained exactly 16 alphabets, suggesting that they might be mapped from 0 to 16 as follows: 
 
 
-_f-0000_
-
+_f-0000_<br />
 _g-0001_
 
 _h-0010_
