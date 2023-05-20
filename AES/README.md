@@ -1,7 +1,7 @@
 # Decrypting the AES algorithm
 This repository contains our implementation of decryption of the AES encryption system as part of the course CS641A.
 
-![img1](https://github.com/akshatg20/cs641-modern-cryptology/blob/main/images/img1.png)
+![img1]([https://github.com/akshatg20/cs641-modern-cryptology/blob/main/images/img1.png](https://drive.google.com/file/d/1bLfW8qxKJ--jDW9cWnPQuzq4sLlzW6nT/view?usp=sharing))
 ![img2](https://github.com/akshatg20/cs641-modern-cryptology/blob/main/images/img2.png)
 ![img3](https://github.com/akshatg20/cs641-modern-cryptology/blob/main/images/img3.png)
 ![img4](https://github.com/akshatg20/cs641-modern-cryptology/blob/main/images/img4.png)
