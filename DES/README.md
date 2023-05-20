@@ -22,3 +22,10 @@ _r−1100_ <br />
 _s−1101_<br />
 _t−1110_<br />
 _u−1111_<br />
+
+This was also consistent with the message given by the soul which stated the following - "two letters for one byte", i.e. **one letter is represented by 4 bits.**
+
+### Encryption System and Method of Attack
+
+The spirit mentions that the cryptosystem used is a 4-round or a 6-round DES. We assumed a **6-round DES encryption system.**</br>
+To break this DES, we performed a known plaintext attack. The plaintexts were generated using the mapping explained above and consisted of alphabets from _f to u_.
