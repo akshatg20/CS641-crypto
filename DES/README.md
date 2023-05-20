@@ -55,3 +55,16 @@ We do not know the value of _L<sub>5</sub>_. However, we do know that the XOR of
 ```math
 r' \oplus e' = r' \oplus D' \oplus c' = X'
 ``` 
+
+Where _D′_ is XOR output after permutation in the 4th round, _c′_ is XOR input to expansion in the 3rd round and _e′_ is XOR input to expansion.</br>
+Since we know that _D′_ has some S-boxes with zero XOR values, we can determine the XOR outputs of those corresponding bits after permutation in the 6th round. Now, we applied the inverse permutation on this XOR value to get the corresponding output of the S-boxes of the 6th round with some probability.
+
+Now, for each of these five S-boxes, we **iterate over all possible keys** and calculate the inputs as the XOR of the expansion box's output and the key. Then, we apply the respective S-box to each of them and obtain the S-box outputs. 
+
+Finally, we determine whether the  XOR of these outputs equals the **expected** value. We **repeat** this process for **numerous pairs of plaintexts** and select the key that produces the proper XOR output value of the S-boxes the **greatest number of times.**
+
+Utilising this, **30 bits** of the key can be determined (using the 5 S-boxes) by utilising one of the characteristic.
+
+Using the second characteristic, we identify **12 more bits** (**using the two new S-boxes**) and check whether the 18 bits of the key corresponding to the three S-boxes shared by the two characteristics are identical. If it is not identical, we must increase the number of plaintext pairs and locate the optimal key once more. 
+
+We continue to increase the number of pairs until we find a key that satisfies the S-boxes shared by both characteristics. Following are the keys generated with corresponding frequencies:
