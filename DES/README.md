@@ -68,3 +68,22 @@ Utilising this, **30 bits** of the key can be determined (using the 5 S-boxes) b
 Using the second characteristic, we identify **12 more bits** (**using the two new S-boxes**) and check whether the 18 bits of the key corresponding to the three S-boxes shared by the two characteristics are identical. If it is not identical, we must increase the number of plaintext pairs and locate the optimal key once more. 
 
 We continue to increase the number of pairs until we find a key that satisfies the S-boxes shared by both characteristics. Following are the keys generated with corresponding frequencies:
+
+For characteristic: (40080000,04000000)
+
+Sbox-2 (6-bit key) =  110011  frequency : 41</br>
+Sbox-5 (6-bit key) =  111101  frequency : 23</br>
+Sbox-6 (6-bit key) =  110000  frequency : 42</br>
+Sbox-7 (6-bit key) =  010101  frequency : 30</br>
+Sbox-8 (6-bit key) =  110110  frequency : 26
+
+For characterstic: (00200008,00000400)
+
+Sbox-2 (6-bit key) =  101101  frequency : 18</br>
+Sbox-5 (6-bit key) =  110011  frequency : 15</br>
+Sbox-6 (6-bit key) =  000111  frequency : 33</br>
+Sbox-7 (6-bit key) =  111101  frequency : 20</br>
+Sbox-8 (6-bit key) =  110000  frequency : 39
+
+We therefore calculated the **Partial Key** as follows: 
+['#', '1', '1', '#', '#', '1', '#', '#', '0', '1', '0', '1', '1', '#', '1', '0', '0', '#', '#', '1', '1', '#', '1', '1', '0', '0', '0', '#', '0', '0', '1', '0', '0', '1', '1', '#', '1', '1', '1', '1', '1', '0', '0', '0', '#', '1', '1', '#', '0', '1', '1', '1', '#', '0', '0', '1']
